@@ -1,0 +1,18 @@
+baseURL = 'https://flowstream.github.io/'
+languageCode = 'ru-ru'
+title = 'КОМ'
+theme = 'niello-nord'
+
+[menu]
+  [[menu.niello]]
+  name = 'откровения'
+  url = '/'
+  weight = 1
+
+  [[menu.niello]]
+  name = 'бирки'
+  url = '/tags/'
+  weight = 2
+
+[taxonomies]
+  tag = 'tags'
